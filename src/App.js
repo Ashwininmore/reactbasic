@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './Component/Greet';
+import Greet from './Component/FuncComp';
+import Welcome from './Component/ClassComp';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,8 @@ function App() {
       </header>
       <h1 style={{color: "red"}}>Functional Component</h1>
         <Greet />
+      <h1 style={{color: "red"}}>Class Component</h1>
+        <Welcome />
     </div>
   );
 }
