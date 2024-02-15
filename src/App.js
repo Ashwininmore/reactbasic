@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Greet from './Component/Greet';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1 style={{color: "red"}}>Functional Component</h1>
+        <Greet />
     </div>
   );
 }
