@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './Component/FuncComp';
 import Welcome from './Component/ClassComp';
+import CompLife from './Component/CompLifeCycle';
+
 function App() {
   return (
     <div className="App">
@@ -19,10 +21,12 @@ function App() {
           Learn React
         </a>
       </header>
-      <h1 style={{color: "red"}}>Functional Component</h1>
+      <h1 style={{color: "white", backgroundColor:"#00008B"}}>Functional Component</h1>
         <Greet />
-      <h1 style={{color: "red"}}>Class Component</h1>
+      <h1 style={{color: "white", backgroundColor:"#00008B"}}>Class Component</h1>
         <Welcome />
+      <h1 style={{color: "white", backgroundColor:"#00008B"}}>Component Life Cycle</h1>
+        <CompLife />
     </div>
   );
 }
