@@ -3,13 +3,14 @@ import './App.css';
 import Greet from './Component/FuncComp';
 import Welcome from './Component/ClassComp';
 import CompLife from './Component/CompLifeCycle';
+import Stateexample from './Component/StateObj';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -19,14 +20,17 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
-      <h1 style={{color: "white", backgroundColor:"#00008B"}}>Functional Component</h1>
+        </a> */}
+        <h1 style={{color: "#87CEEB"}}>Functional Component</h1>
         <Greet />
-      <h1 style={{color: "white", backgroundColor:"#00008B"}}>Class Component</h1>
+      <h1 style={{color: "#87CEEB"}}>Class Component</h1>
         <Welcome />
-      <h1 style={{color: "white", backgroundColor:"#00008B"}}>Component Life Cycle</h1>
+      <h1 style={{color: "#87CEEB"}}>Component Life Cycle</h1>
         <CompLife />
+        <h1 style={{color: "#87CEEB"}}>State Object</h1>
+        <Stateexample />
+      </header>
+      
     </div>
   );
 }
