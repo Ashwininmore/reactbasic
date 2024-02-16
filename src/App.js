@@ -7,6 +7,7 @@ import Stateexample from './Component/StateObj';
 import Propsexample from './Component/Props';
 import Simplejsx from './Component/JSXexample';
 import Jsxfunction from './Component/Jsxfunction';
+import JSXIf from './Component/JSXif';
 
 function App() {
   const data={name:'Swami'};
@@ -39,6 +40,8 @@ function App() {
         <Simplejsx />
         <h1 style={{color: "#87CEEB"}}>JSX Function</h1>
         <Jsxfunction />
+        <h1 style={{color: "#87CEEB"}}>JSX If</h1>
+        <JSXIf />
         
       </header>
       
