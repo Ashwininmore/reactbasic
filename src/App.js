@@ -12,6 +12,8 @@ import Jsxattribute from'./Component/Jsxattribute';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Bootstrap from './Component/Bootstrap';
 import Usestate from './Component/Usestate';
+import Useeffect from './Component/Useeffect';
+import Useref from './Component/Useref';
 
 function App() {
   const data={name:'Swami'};
@@ -52,6 +54,10 @@ function App() {
         <Bootstrap />
         <h1 style={{color: "#87CEEB"}}>Usestate Hook</h1>
         <Usestate />
+        <h1 style={{color: "#87CEEB"}}>Useeffect Hook</h1>
+        <Useeffect />
+        <h1 style={{color: "#87CEEB"}}>Useref Hook</h1>
+        <Useref />
       </header>
       
     </div>
