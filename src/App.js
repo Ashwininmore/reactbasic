@@ -6,6 +6,7 @@ import CompLife from './Component/CompLifeCycle';
 import Stateexample from './Component/StateObj';
 import Propsexample from './Component/Props';
 import Simplejsx from './Component/JSXexample';
+import Jsxfunction from './Component/Jsxfunction';
 
 function App() {
   const data={name:'Swami'};
@@ -36,6 +37,9 @@ function App() {
         <Propsexample data={data} />
         <h1 style={{color: "#87CEEB"}}>JSX Example</h1>
         <Simplejsx />
+        <h1 style={{color: "#87CEEB"}}>JSX Function</h1>
+        <Jsxfunction />
+        
       </header>
       
     </div>
