@@ -5,6 +5,7 @@ import Welcome from './Component/ClassComp';
 import CompLife from './Component/CompLifeCycle';
 import Stateexample from './Component/StateObj';
 import Propsexample from './Component/Props';
+import Simplejsx from './Component/JSXexample';
 
 function App() {
   const data={name:'Swami'};
@@ -33,6 +34,8 @@ function App() {
         <Stateexample />
         <h1 style={{color: "#87CEEB"}}>Props example</h1>
         <Propsexample data={data} />
+        <h1 style={{color: "#87CEEB"}}>JSX Example</h1>
+        <Simplejsx />
       </header>
       
     </div>
