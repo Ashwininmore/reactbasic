@@ -18,6 +18,7 @@ import StudentHome from './Component/useContextComp/StudentHome';
 import StudentContextComp from './Component/useContextComp/StudentContextComp';
 import Usememo from './Component/useMemo';
 import NameForm from './Component/NameForm';
+import SignupForm from './Component/SignupForm';
 
 function App() {
   const data={name:'Swami'};
@@ -70,6 +71,8 @@ function App() {
         <Usememo />
         <h1 style={{color: "#87CEEB"}}>React form</h1>
         <NameForm />
+        <h1 style={{color: "#87CEEB"}}>Formik form</h1>
+        <SignupForm />
       </header>
       
     </div>
