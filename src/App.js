@@ -4,8 +4,10 @@ import Greet from './Component/FuncComp';
 import Welcome from './Component/ClassComp';
 import CompLife from './Component/CompLifeCycle';
 import Stateexample from './Component/StateObj';
+import Propsexample from './Component/Props';
 
 function App() {
+  const data={name:'Swami'};
   return (
     <div className="App">
       <header className="App-header">
@@ -29,6 +31,8 @@ function App() {
         <CompLife />
         <h1 style={{color: "#87CEEB"}}>State Object</h1>
         <Stateexample />
+        <h1 style={{color: "#87CEEB"}}>Props example</h1>
+        <Propsexample data={data} />
       </header>
       
     </div>
