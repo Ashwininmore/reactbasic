@@ -14,6 +14,8 @@ import Bootstrap from './Component/Bootstrap';
 import Usestate from './Component/Usestate';
 import Useeffect from './Component/Useeffect';
 import Useref from './Component/Useref';
+import StudentHome from './Component/useContextComp/StudentHome';
+import StudentContextComp from './Component/useContextComp/StudentContextComp';
 
 function App() {
   const data={name:'Swami'};
@@ -58,6 +60,10 @@ function App() {
         <Useeffect />
         <h1 style={{color: "#87CEEB"}}>Useref Hook</h1>
         <Useref />
+        <h1 style={{color: "#87CEEB"}}>Use Context Hook</h1>
+        <StudentContextComp>
+          <StudentHome></StudentHome>
+        </StudentContextComp>
       </header>
       
     </div>
