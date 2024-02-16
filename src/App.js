@@ -17,6 +17,7 @@ import Useref from './Component/Useref';
 import StudentHome from './Component/useContextComp/StudentHome';
 import StudentContextComp from './Component/useContextComp/StudentContextComp';
 import Usememo from './Component/useMemo';
+import NameForm from './Component/NameForm';
 
 function App() {
   const data={name:'Swami'};
@@ -67,6 +68,8 @@ function App() {
         </StudentContextComp>
         <h1 style={{color: "#87CEEB"}}>useMemo Hook</h1>
         <Usememo />
+        <h1 style={{color: "#87CEEB"}}>React form</h1>
+        <NameForm />
       </header>
       
     </div>
