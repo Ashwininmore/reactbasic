@@ -16,6 +16,7 @@ import Useeffect from './Component/Useeffect';
 import Useref from './Component/Useref';
 import StudentHome from './Component/useContextComp/StudentHome';
 import StudentContextComp from './Component/useContextComp/StudentContextComp';
+import Usememo from './Component/useMemo';
 
 function App() {
   const data={name:'Swami'};
@@ -64,6 +65,8 @@ function App() {
         <StudentContextComp>
           <StudentHome></StudentHome>
         </StudentContextComp>
+        <h1 style={{color: "#87CEEB"}}>useMemo Hook</h1>
+        <Usememo />
       </header>
       
     </div>
